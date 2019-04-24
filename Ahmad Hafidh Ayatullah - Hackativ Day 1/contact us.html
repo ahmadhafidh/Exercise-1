@@ -1,0 +1,107 @@
+<html>
+	<head>
+		<title> Welcome To My Web </title>
+	<style>		
+		a:link{
+		color:black;
+		background-color: orange;
+		text-decoration:none;
+		}
+		a:visited{
+		color:black;
+		background-color:transparent;
+		text-decoration:none;
+		}
+		a:hover{
+		color:blue;
+		background-color:transparent;
+		text-decoration:none;
+		}
+		.rotate90 {
+		    -webkit-transform: rotate(90deg);
+		    -moz-transform: rotate(90deg);
+		    -o-transform: rotate(90deg);
+		    -ms-transform: rotate(90deg);
+		    transform: rotate(90deg);
+		}
+	</style>
+	</head>
+	<body background="assets/background/bg.jpg">
+		<table align="center" border="0" width="70%">
+		<tr>
+		<td align="center">
+		<font face="comic sans ms" size="7"><b> Welcome To My Web </b></font><br>
+		<font face="times new romans" size="4"><b> Just The Way You are. </b></font>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<hr size="4px" color="orange">
+		<b><h2>
+		<a href="index.html"> Home </a> &nbsp | &nbsp
+		<a href="profile.html"> Profile </a> &nbsp | &nbsp
+		<a href="galery.html"> Galery </a> &nbsp | &nbsp
+		<a href="Contact Us.html"> Contact Us </a>
+		</h2></b>
+		<hr size="4px" color="orange">
+		</td>
+		</tr>
+		</table>
+		<table border="0" align="center" width="70%">
+		<tr>
+		<td rowspan="2" bgcolor="snow" valign="top">
+		<h2>Let's Send us a message now!</h2>
+        <div class="half float_l">
+			
+            <p>Jika ada pertanyaan, saran atau masukan silahkan kirimkan pesan pada form dibawah ini</p>
+            <div id="contact_form">
+				<form method="post" name="contact" action="#">
+					
+					<label for="author">Nama:</label> <input type="text" id="author" name="author" class="required input_field" />
+					<div class="cleaner h10"></div>
+																	
+					<label for="email">Email:</label> <input type="text" class="validate-email required input_field" name="email" id="email" />
+					<div class="cleaner h10"></div>
+															
+					<label for="subject">Subject:</label> <input type="text" class="validate-subject required input_field" name="subject" id="subject"/>				               
+					<div class="cleaner h10"></div>
+											
+					<label for="text">Message:</label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
+					<div class="cleaner h10"></div>				
+																
+					<input type="submit" value="Send" id="submit" name="submit" class="submit_btn float_l" />
+					<input type="reset" value="Reset" id="reset" name="reset" class="submit_btn float_r" />
+										
+				</form>
+            
+		</td>
+		<td bgcolor="snow">
+		<h3><b>Owner Profile</b></h3><br>
+		<img src="assets/img/20130626_061215.jpg" height="200" class="rotate90"><br><br><br>
+		</td>
+		</tr>
+		<tr>
+		<td bgcolor="snow"> 
+			<h3>Contact information</h3>
+			<div id="contact-info">
+			<address>
+			E-mail: ahmad.hafidhayatullah@gmail.com<br />
+			Facebook: https://www.facebook.com/hafydhayatullah<br />
+			github : https://github.com/ahmadhafidh<br />
+			HP: +6285607060676
+			</address>
+			</div> 
+		</td>
+		</tr>
+		<tr>
+	
+			<td colspan="2" bgcolor="khaki" width="400">
+		
+		Published By AhmadHafidh || ahmad.hafidhayatullah@gmail.com
+		
+			</td>
+		</tr>
+		</table>
+		
+	</body>
+</html>
